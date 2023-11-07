@@ -4,7 +4,7 @@ import deliverySelect from "../../src/images/deliverySelect.png";
 import dine from "../../src/images/dine.png";
 import dineSelect from "../../src/images/dineSelect.png";
 
-function Hero() {
+function Toggles() {
   const [deliverySelected, setdeliverySelected] = useState(true);
 
   return (
@@ -81,4 +81,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default Toggles;
