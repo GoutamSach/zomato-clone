@@ -1,5 +1,6 @@
 import React from "react";
 import TuneIcon from "@mui/icons-material/Tune";
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
 function Tags() {
   return (
@@ -13,6 +14,9 @@ function Tags() {
       </div>
       <div className="cursor-pointer  text-gray-400  border border-gray-400 rounded-lg p-1.5 w-max px-2  ">
         Pure Veg
+      </div>
+      <div className="cursor-pointer  text-gray-400  border border-gray-400 rounded-lg p-1.5 w-max px-2  ">
+        Cuisines <KeyboardArrowDownIcon />
       </div>
     </div>
   );
