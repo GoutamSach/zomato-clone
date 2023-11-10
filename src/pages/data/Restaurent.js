@@ -2,10 +2,10 @@ export const Restaurent = [
   {
     type: "restaurant",
     info: {
-      resId: 19535272,
+      resId: 119535272,
       name: "Mom's Kitchen",
       image: {
-        url: "https://pixabay.com/get/g3e3d7f6ede02912581c1b03db0ba1591dd6a3306f9abd2e423f447afb27e895d23da71fa9fc3a350d9e8e13d8afbc6740e1ca3911e48c4d5d6898ef8894432a6_640.jpg",
+        url: "restaurent/001.jpg",
       },
       type: ["North Indian,  ", "South Indian"],
 
@@ -60,7 +60,7 @@ export const Restaurent = [
         text: "₹300 for two",
       },
       cfo: {
-        text: "₹100 for one",
+        text: "₹50 for one",
       },
       locality: {
         name: "Chowk, Allahabad",
@@ -128,10 +128,10 @@ export const Restaurent = [
   {
     type: "restaurant",
     info: {
-      resId: 20693173,
+      resId: 120693173,
       name: "Bhagwan Das Prahlad Das & Sons",
       image: {
-        url: "https://pixabay.com/get/g1ec9f0d9282fee79ed1105ec9d37251defa80c31e85c9464e61609b1f8fc35cbd54c3663496095569337400a28fbfd50_640.jpg",
+        url: "restaurent/002.jpg",
       },
       type: ["South Indian,  ", "Chinese"],
       rating: {
@@ -185,7 +185,7 @@ export const Restaurent = [
         text: "₹400 for two",
       },
       cfo: {
-        text: "₹100 for one",
+        text: "₹150 for one",
       },
       locality: {
         name: "Civil Lines, Allahabad",
@@ -250,10 +250,10 @@ export const Restaurent = [
   {
     type: "restaurant",
     info: {
-      resId: 19182849,
+      resId: 119182849,
       name: "Desi Kitchen",
       image: {
-        url: "https://pixabay.com/get/g6198961a8669a8d66283bf0107efc2f87f1dedb638a2422dc82df4804dc729a339e6612c0d9bbc4d9dde14faaff63698e0a1fbb87419950ce56849f5bf78065a_640.jpg",
+        url: "restaurent/003.jpg",
       },
       type: ["South Indian,  ", "North Indian"],
       rating: {
@@ -376,10 +376,10 @@ export const Restaurent = [
   {
     type: "restaurant",
     info: {
-      resId: 2400206,
+      resId: 24010206,
       name: "New Bhagwan Das Prahlad Das Mishthan Bhandar",
       image: {
-        url: "https://pixabay.com/get/g1033351d74b15a7a03babafdd30426bc25760036290cf55e16a1a32d396fa8a125bf8f5f09f6acca3aa985029e50103c15912371fe4d0232bb47d4bb7ab1a4d9_640.jpg",
+        url: "restaurent/004.jpg",
       },
       type: ["South Indian,  ", "Gujrati"],
 
@@ -434,7 +434,7 @@ export const Restaurent = [
         text: "₹300 for two",
       },
       cfo: {
-        text: "₹100 for one",
+        text: "₹150 for one",
       },
       locality: {
         name: "Chowk, Allahabad",
@@ -500,10 +500,10 @@ export const Restaurent = [
   {
     type: "restaurant",
     info: {
-      resId: 20360098,
+      resId: 203601098,
       name: "Tiffinz",
       image: {
-        url: "https://pixabay.com/get/gd5a6bbd25a8ccc7e48848d04394e012b58e7abe9b3302c0a160bca7de8b54fea87271a7494be2047205036b2bf0b08d297f7e280a0b24216122976427257458a_640.jpg",
+        url: "restaurent/005.jpg",
       },
       type: ["Bengali,  ", "Gujrati"],
 
@@ -558,7 +558,7 @@ export const Restaurent = [
         text: "₹250 for two",
       },
       cfo: {
-        text: "₹100 for one",
+        text: "₹200 for one",
       },
       locality: {
         name: "Rajapur, Allahabad",
@@ -622,10 +622,10 @@ export const Restaurent = [
   {
     type: "restaurant",
     info: {
-      resId: 20754486,
+      resId: 207541486,
       name: "Aapno Rajasthan",
       image: {
-        url: "https://pixabay.com/get/g86a8e92d6a25e4a665c629a15aca93e1d4a51187946f68e4cffef06ba0d47a1a62d0e71b545cfb2ce4f792a7417a72908cf16c1933b7ea8de5052d3a7db3559b_640.jpg",
+        url: "restaurent/006.jpg",
       },
       type: ["North Indian,  ", "South Indian"],
 
@@ -680,7 +680,7 @@ export const Restaurent = [
         text: "₹150 for two",
       },
       cfo: {
-        text: "₹100 for one",
+        text: "₹150 for one",
       },
       locality: {
         name: "Civil Lines, Allahabad",
@@ -737,10 +737,10 @@ export const Restaurent = [
   {
     type: "restaurant",
     info: {
-      resId: 20221141,
+      resId: 202211141,
       name: "Breakfast Adda",
       image: {
-        url: "https://pixabay.com/get/g7b5a1c747037b5789fc27f2452b755c66b1b286558a37371e6535760848d6ffa4a51075efb9772e4a575d20ad2361c6281b4cb3ee93199e42eb6a9428f2b7a7c_640.jpg",
+        url: "restaurent/007.jpg",
       },
       type: ["Chinese,  ", "South Indian"],
 
@@ -795,7 +795,7 @@ export const Restaurent = [
         text: "₹200 for two",
       },
       cfo: {
-        text: "₹100 for one",
+        text: "₹50 for one",
       },
       locality: {
         name: "Rambagh, Allahabad",
@@ -859,10 +859,10 @@ export const Restaurent = [
   {
     type: "restaurant",
     info: {
-      resId: 18978564,
+      resId: 189178564,
       name: "Le  Leisure",
       image: {
-        url: "https://pixabay.com/get/gc833d4e3e457e71b192c71516f9d270f1131a2486a9f0af87078339b51da08f5341fe660869a4da487cb95ce65179ff7d6d027c48c3ee7702d19cbbef1071165_640.jpg",
+        url: "restaurent/008.jpg",
       },
       type: ["Italian,  ", "South Indian"],
 
@@ -985,10 +985,10 @@ export const Restaurent = [
   {
     type: "restaurant",
     info: {
-      resId: 19811964,
+      resId: 198111964,
       name: "Healthy Wealthy",
       image: {
-        url: "https://pixabay.com/get/g1deb6cb9add36e9af8e6dbe4ad8fa623a7a9e508e89b1c273d849249d86ce6c8e317c98069a6978ef172509ce93ffa41cf619171e82a28bdfbe0b8c36b1cfc40_640.jpg",
+        url: "restaurent/009.jpg",
       },
       type: ["North Indian,  ", "South Indian"],
 
@@ -1112,10 +1112,10 @@ export const Restaurent = [
   {
     type: "restaurant",
     info: {
-      resId: 20849174,
+      resId: 208419174,
       name: "Noodles Junction",
       image: {
-        url: "https://pixabay.com/get/g23c1d5a0c2ecf68e0a02a43ccb844949342a06da9d9defc13e41eabb557862a0e9a410485fa4ff893d2efc8b9ecd848a_640.jpg",
+        url: "restaurent/010.jpg",
       },
       type: ["Gujrati,  ", "South Indian"],
 
@@ -1212,10 +1212,10 @@ export const Restaurent = [
   {
     type: "restaurant",
     info: {
-      resId: 20521596,
+      resId: 205121596,
       name: "Vanakkam Sangam",
       image: {
-        url: "https://pixabay.com/get/g6dbfe81ed55cdd2912105832c25eed3c9cc6ae3bdd8b40707c55bf2c54f3fead15c652ff6443b7709795a2e09022f4c9_640.jpg",
+        url: "restaurent/011.jpg",
       },
       type: ["North Indian,  ", "South Indian"],
 
@@ -1334,10 +1334,10 @@ export const Restaurent = [
   {
     type: "restaurant",
     info: {
-      resId: 20670384,
+      resId: 206710384,
       name: "Rich Cakes And Bakery",
       image: {
-        url: "https://pixabay.com/get/g146d5ac86fd4071cb34e6120d3e0074ce6dfcf0d6c1284fd36ba3bf5762d5af4fe3b4de2269b6689fc03abc7de68e4d3_640.jpg",
+        url: "restaurent/012.jpg",
       },
       type: ["North Indian,  ", "South Indian"],
 
@@ -1457,10 +1457,10 @@ export const Restaurent = [
   {
     type: "restaurant",
     info: {
-      resId: 20868941,
+      resId: 208689141,
       name: "Cakes For Obsession",
       image: {
-        url: "https://pixabay.com/get/g334a0a9068e11e1e5140bca7362431a6e69be562cb156b2ffab482729aad5382fe7d598124e9210c8362cff3f741338270e84e722e5402e3bf16bd66329046dd_640.jpg",
+        url: "restaurent/013.jpg",
       },
       type: ["Italian,  ", "Thai"],
 
@@ -1557,10 +1557,10 @@ export const Restaurent = [
   {
     type: "restaurant",
     info: {
-      resId: 20844937,
+      resId: 208449317,
       name: "Stuti Fast Food",
       image: {
-        url: "https://pixabay.com/get/g7db2af77f1031c8b20547744fa296fe34cd98d8e17b39397c33f5e9dc5f2459a2e92638006c710ee3d2d2c32737a98afe580583d8c3dbffea306649e6878b276_640.jpg",
+        url: "restaurent/014.jpg",
       },
       type: ["North Indian,  ", "Chinese"],
 
@@ -1649,10 +1649,10 @@ export const Restaurent = [
   {
     type: "restaurant",
     info: {
-      resId: 20037941,
+      resId: 201037941,
       name: "Cake O' Clock",
       image: {
-        url: "https://pixabay.com/get/gd16d421cfa980f739ff5f50a04099eb47aa6bd07cd41447c02f2316ef40ea04fbd355b89b3a71e25b1970ebd396ef96da261aedfcfe148a97198c4376ec90a92_640.jpg",
+        url: "restaurent/015.jpg",
       },
       type: ["North Indian,  ", "South Indian"],
 
@@ -1775,10 +1775,10 @@ export const Restaurent = [
   {
     type: "restaurant",
     info: {
-      resId: 20040082,
+      resId: 200410082,
       name: "Tere Gully Mein",
       image: {
-        url: "https://pixabay.com/get/gd16d421cfa980f739ff5f50a04099eb47aa6bd07cd41447c02f2316ef40ea04fbd355b89b3a71e25b1970ebd396ef96da261aedfcfe148a97198c4376ec90a92_640.jpg",
+        url: "restaurent/016.jpg",
       },
       type: ["North Indian  "],
 
@@ -1894,10 +1894,10 @@ export const Restaurent = [
   {
     type: "restaurant",
     info: {
-      resId: 20519016,
+      resId: 205190116,
       name: "Pizza Time",
       image: {
-        url: "https://pixabay.com/get/gd93b0bb94b75fb23a8eb83c73ed9fade5e13756498628e43c7aa3239bc9a8e730949383b0f901982c1d0ac327a33280ff8903155f0875c7f6df4f2546203b19e_640.png",
+        url: "restaurent/017.jpg",
       },
       type: ["South Indian  "],
 
@@ -2016,10 +2016,10 @@ export const Restaurent = [
   {
     type: "restaurant",
     info: {
-      resId: 20745675,
+      resId: 207451675,
       name: "Scooby-Doo Burgers",
       image: {
-        url: "https://pixabay.com/get/g84d3950f5e6987a5d599697179950bcbf6cee00d5b05ad3d8306ac018678fcdbf4db60ed8eea1de435087f45e24a794b4c175fee622306f9ccc002ec00c7d2bb_640.png",
+        url: "restaurent/018.jpg",
       },
       type: ["Continental"],
 
@@ -2138,12 +2138,12 @@ export const Restaurent = [
   {
     type: "restaurant",
     info: {
-      resId: 20739684,
+      resId: 207391684,
       name: "Pizza Factory",
       image: {
-        url: "https://pixabay.com/get/g90bd65e953f7a7ad2153c7efd13b2ead4b32f42b8fb27cdc7294d472e313bc6251ecbaa833f20df94804118049b802840951ddbb80cc57ba3aff98f540f35507_640.jpg",
+        url: "restaurent/019.jpg",
       },
-      type: ["north Indian, South Indian"],
+      type: ["North Indian, South Indian"],
 
       rating: {
         has_fake_reviews: 0,
@@ -2260,12 +2260,12 @@ export const Restaurent = [
   {
     type: "restaurant",
     info: {
-      resId: 20626873,
+      resId: 206265101,
       name: "Paradise Pizza",
       image: {
-        url: "https://pixabay.com/get/g9e7c70f1fe6b5fbbeb9fd8b8bdae15a27ffb092ace18b776c88863cab58f26a5d666c021a24c9bd79b09f32ff90e4235d6b0000eb6f903e5cf735bbc9f7c6915_640.jpg",
+        url: "restaurent/020.jpg",
       },
-      type: ["north Indian, South Indian"],
+      type: ["North Indian, South Indian"],
 
       rating: {
         has_fake_reviews: 0,
@@ -2337,6 +2337,1226 @@ export const Restaurent = [
     },
     order: {
       deliveryTime: "64 min",
+      isServiceable: true,
+      hasOnlineOrdering: true,
+      actionInfo: {
+        text: "Order Now",
+        clickUrl: "/allahabad/paradise-pizza-dhoomanganj/order",
+      },
+    },
+    gold: [],
+    takeaway: [],
+    cardAction: {
+      text: "",
+      clickUrl: "/allahabad/paradise-pizza-dhoomanganj/order",
+    },
+    distance: "6.9 km",
+    isPromoted: false,
+    promotedText: "",
+    trackingData: [
+      {
+        table_name: "zsearch_events_log",
+        payload:
+          '{"search_id":"d559a98b-bfc9-45df-85de-ef33dd0428f4","location_type":"delivery_cell","location_id":"4150852907861803008","page_type":"delivery","app_type":"new_web_consumer","section":"restaurants","entity_type":"restaurant","entity_id":"20626501","element_type":"listing","rank":8}',
+        event_names: {
+          tap: '{"action":"tap"}',
+          impression: '{"action":"impression"}',
+        },
+      },
+    ],
+    allCTA: [],
+    promoOffer: "",
+    checkBulkOffers: true,
+    bulkOffers: [
+      {
+        text: "60% OFF",
+        color: {
+          tint: "500",
+          type: "blue",
+        },
+      },
+    ],
+    isDisabled: false,
+    bottomContainers: [],
+  },
+  {
+    type: "restaurant",
+    info: {
+      resId: 2062681111,
+      name: "Paradise Zone",
+      image: {
+        url: "restaurent/021.jpg",
+      },
+      type: ["North Indian, South Indian"],
+
+      rating: {
+        has_fake_reviews: 0,
+        aggregate_rating: "3.3",
+        rating_text: "3.3",
+        rating_subtitle: "Average",
+        rating_color: "CDD614",
+        votes: "39",
+        subtext: "REVIEWS",
+        is_new: false,
+      },
+      ratingNew: {
+        newlyOpenedObj: null,
+        suspiciousReviewObj: null,
+        ratings: {
+          DINING: {
+            rating_type: "DINING",
+            rating: "",
+            reviewCount: "0",
+            reviewTextSmall: "0 Reviews",
+            subtext: "Does not offer Dining",
+            color: "",
+            ratingV2: "-",
+            subtitle: "DINING",
+            sideSubTitle: "Dining Reviews",
+            bgColorV2: {
+              type: "grey",
+              tint: "500",
+            },
+          },
+          DELIVERY: {
+            rating_type: "DELIVERY",
+            rating: "3.3",
+            reviewCount: "39",
+            reviewTextSmall: "39 Reviews",
+            subtext: "39 Delivery Reviews",
+            color: "#E23744",
+            ratingV2: "3.3",
+            subtitle: "DELIVERY",
+            sideSubTitle: "Delivery Reviews",
+            bgColorV2: {
+              type: "green",
+              tint: "500",
+            },
+            newOnDelivery: false,
+          },
+        },
+      },
+      cft: {
+        text: "₹400 for two",
+      },
+      cfo: {
+        text: "₹200 for one",
+      },
+      locality: {
+        name: "Dhoomanganj, Allahabad",
+        address: "19/A, Jayantipur, Preetam Nagar, Dhoomanganj, Allahabad",
+        localityUrl: "allahabad/dhoomanganj-restaurants",
+      },
+      timing: {
+        text: "Opens at 10am",
+        color: "#ab000d",
+      },
+
+      should_ban_ugc: false,
+      costText: {
+        text: "₹200 for one",
+      },
+    },
+    order: {
+      deliveryTime: "50 min",
+      isServiceable: true,
+      hasOnlineOrdering: true,
+      actionInfo: {
+        text: "Order Now",
+        clickUrl: "/allahabad/paradise-pizza-dhoomanganj/order",
+      },
+    },
+    gold: [],
+    takeaway: [],
+    cardAction: {
+      text: "",
+      clickUrl: "/allahabad/paradise-pizza-dhoomanganj/order",
+    },
+    distance: "6.9 km",
+    isPromoted: false,
+    promotedText: "",
+    trackingData: [
+      {
+        table_name: "zsearch_events_log",
+        payload:
+          '{"search_id":"d559a98b-bfc9-45df-85de-ef33dd0428f4","location_type":"delivery_cell","location_id":"4150852907861803008","page_type":"delivery","app_type":"new_web_consumer","section":"restaurants","entity_type":"restaurant","entity_id":"20626501","element_type":"listing","rank":8}',
+        event_names: {
+          tap: '{"action":"tap"}',
+          impression: '{"action":"impression"}',
+        },
+      },
+    ],
+    allCTA: [],
+    promoOffer: "",
+    checkBulkOffers: true,
+    bulkOffers: [
+      {
+        text: "70% OFF",
+        color: {
+          tint: "500",
+          type: "blue",
+        },
+      },
+    ],
+    isDisabled: false,
+    bottomContainers: [],
+  },
+  {
+    type: "restaurant",
+    info: {
+      resId: 206261222,
+      name: "Aashta",
+      image: {
+        url: "restaurent/022.jpg",
+      },
+      type: ["North Indian, South Indian"],
+
+      rating: {
+        has_fake_reviews: 0,
+        aggregate_rating: "3.1",
+        rating_text: "3.3",
+        rating_subtitle: "Average",
+        rating_color: "CDD614",
+        votes: "39",
+        subtext: "REVIEWS",
+        is_new: false,
+      },
+      ratingNew: {
+        newlyOpenedObj: null,
+        suspiciousReviewObj: null,
+        ratings: {
+          DINING: {
+            rating_type: "DINING",
+            rating: "",
+            reviewCount: "0",
+            reviewTextSmall: "0 Reviews",
+            subtext: "Does not offer Dining",
+            color: "",
+            ratingV2: "-",
+            subtitle: "DINING",
+            sideSubTitle: "Dining Reviews",
+            bgColorV2: {
+              type: "grey",
+              tint: "500",
+            },
+          },
+          DELIVERY: {
+            rating_type: "DELIVERY",
+            rating: "3.0",
+            reviewCount: "39",
+            reviewTextSmall: "39 Reviews",
+            subtext: "39 Delivery Reviews",
+            color: "#E23744",
+            ratingV2: "3.3",
+            subtitle: "DELIVERY",
+            sideSubTitle: "Delivery Reviews",
+            bgColorV2: {
+              type: "green",
+              tint: "500",
+            },
+            newOnDelivery: false,
+          },
+        },
+      },
+      cft: {
+        text: "₹400 for two",
+      },
+      cfo: {
+        text: "₹120 for one",
+      },
+      locality: {
+        name: "Dhoomanganj, Allahabad",
+        address: "19/A, Jayantipur, Preetam Nagar, Dhoomanganj, Allahabad",
+        localityUrl: "allahabad/dhoomanganj-restaurants",
+      },
+      timing: {
+        text: "Opens at 10am",
+        color: "#ab000d",
+      },
+
+      should_ban_ugc: false,
+      costText: {
+        text: "₹200 for one",
+      },
+    },
+    order: {
+      deliveryTime: "20 min",
+      isServiceable: true,
+      hasOnlineOrdering: true,
+      actionInfo: {
+        text: "Order Now",
+        clickUrl: "/allahabad/paradise-pizza-dhoomanganj/order",
+      },
+    },
+    gold: [],
+    takeaway: [],
+    cardAction: {
+      text: "",
+      clickUrl: "/allahabad/paradise-pizza-dhoomanganj/order",
+    },
+    distance: "6.9 km",
+    isPromoted: false,
+    promotedText: "",
+    trackingData: [
+      {
+        table_name: "zsearch_events_log",
+        payload:
+          '{"search_id":"d559a98b-bfc9-45df-85de-ef33dd0428f4","location_type":"delivery_cell","location_id":"4150852907861803008","page_type":"delivery","app_type":"new_web_consumer","section":"restaurants","entity_type":"restaurant","entity_id":"20626873","element_type":"listing","rank":8}',
+        event_names: {
+          tap: '{"action":"tap"}',
+          impression: '{"action":"impression"}',
+        },
+      },
+    ],
+    allCTA: [],
+    promoOffer: "",
+    checkBulkOffers: true,
+    bulkOffers: [
+      {
+        text: "65% OFF",
+        color: {
+          tint: "500",
+          type: "blue",
+        },
+      },
+    ],
+    isDisabled: false,
+    bottomContainers: [],
+  },
+  {
+    type: "restaurant",
+    info: {
+      resId: 206126333,
+      name: "Food Foundary",
+      image: {
+        url: "restaurent/023.jpg",
+      },
+      type: ["North Indian, South Indian"],
+
+      rating: {
+        has_fake_reviews: 0,
+        aggregate_rating: "2.7",
+        rating_text: "3.3",
+        rating_subtitle: "Average",
+        rating_color: "CDD614",
+        votes: "39",
+        subtext: "REVIEWS",
+        is_new: false,
+      },
+      ratingNew: {
+        newlyOpenedObj: null,
+        suspiciousReviewObj: null,
+        ratings: {
+          DINING: {
+            rating_type: "DINING",
+            rating: "",
+            reviewCount: "0",
+            reviewTextSmall: "0 Reviews",
+            subtext: "Does not offer Dining",
+            color: "",
+            ratingV2: "-",
+            subtitle: "DINING",
+            sideSubTitle: "Dining Reviews",
+            bgColorV2: {
+              type: "grey",
+              tint: "500",
+            },
+          },
+          DELIVERY: {
+            rating_type: "DELIVERY",
+            rating: "3.3",
+            reviewCount: "39",
+            reviewTextSmall: "39 Reviews",
+            subtext: "39 Delivery Reviews",
+            color: "#E23744",
+            ratingV2: "3.3",
+            subtitle: "DELIVERY",
+            sideSubTitle: "Delivery Reviews",
+            bgColorV2: {
+              type: "green",
+              tint: "500",
+            },
+            newOnDelivery: false,
+          },
+        },
+      },
+      cft: {
+        text: "₹400 for two",
+      },
+      cfo: {
+        text: "₹300 for one",
+      },
+      locality: {
+        name: "Dhoomanganj, Allahabad",
+        address: "19/A, Jayantipur, Preetam Nagar, Dhoomanganj, Allahabad",
+        localityUrl: "allahabad/dhoomanganj-restaurants",
+      },
+      timing: {
+        text: "Opens at 10am",
+        color: "#ab000d",
+      },
+
+      should_ban_ugc: false,
+      costText: {
+        text: "₹200 for one",
+      },
+    },
+    order: {
+      deliveryTime: "15 min",
+      isServiceable: true,
+      hasOnlineOrdering: true,
+      actionInfo: {
+        text: "Order Now",
+        clickUrl: "/allahabad/paradise-pizza-dhoomanganj/order",
+      },
+    },
+    gold: [],
+    takeaway: [],
+    cardAction: {
+      text: "",
+      clickUrl: "/allahabad/paradise-pizza-dhoomanganj/order",
+    },
+    distance: "6.9 km",
+    isPromoted: false,
+    promotedText: "",
+    trackingData: [
+      {
+        table_name: "zsearch_events_log",
+        payload:
+          '{"search_id":"d559a98b-bfc9-45df-85de-ef33dd0428f4","location_type":"delivery_cell","location_id":"4150852907861803008","page_type":"delivery","app_type":"new_web_consumer","section":"restaurants","entity_type":"restaurant","entity_id":"20626873","element_type":"listing","rank":8}',
+        event_names: {
+          tap: '{"action":"tap"}',
+          impression: '{"action":"impression"}',
+        },
+      },
+    ],
+    allCTA: [],
+    promoOffer: "",
+    checkBulkOffers: true,
+    bulkOffers: [
+      {
+        text: "60% OFF",
+        color: {
+          tint: "500",
+          type: "blue",
+        },
+      },
+    ],
+    isDisabled: false,
+    bottomContainers: [],
+  },
+  {
+    type: "restaurant",
+    info: {
+      resId: 210626504,
+      name: "Mezzban",
+      image: {
+        url: "restaurent/024.jpg",
+      },
+      type: ["Chinese, South Indian"],
+
+      rating: {
+        has_fake_reviews: 0,
+        aggregate_rating: "4.6",
+        rating_text: "3.3",
+        rating_subtitle: "Average",
+        rating_color: "CDD614",
+        votes: "39",
+        subtext: "REVIEWS",
+        is_new: false,
+      },
+      ratingNew: {
+        newlyOpenedObj: null,
+        suspiciousReviewObj: null,
+        ratings: {
+          DINING: {
+            rating_type: "DINING",
+            rating: "",
+            reviewCount: "0",
+            reviewTextSmall: "0 Reviews",
+            subtext: "Does not offer Dining",
+            color: "",
+            ratingV2: "-",
+            subtitle: "DINING",
+            sideSubTitle: "Dining Reviews",
+            bgColorV2: {
+              type: "grey",
+              tint: "500",
+            },
+          },
+          DELIVERY: {
+            rating_type: "DELIVERY",
+            rating: "3.3",
+            reviewCount: "39",
+            reviewTextSmall: "39 Reviews",
+            subtext: "39 Delivery Reviews",
+            color: "#E23744",
+            ratingV2: "3.3",
+            subtitle: "DELIVERY",
+            sideSubTitle: "Delivery Reviews",
+            bgColorV2: {
+              type: "green",
+              tint: "500",
+            },
+            newOnDelivery: false,
+          },
+        },
+      },
+      cft: {
+        text: "₹400 for two",
+      },
+      cfo: {
+        text: "₹200 for one",
+      },
+      locality: {
+        name: "Dhoomanganj, Allahabad",
+        address: "19/A, Jayantipur, Preetam Nagar, Dhoomanganj, Allahabad",
+        localityUrl: "allahabad/dhoomanganj-restaurants",
+      },
+      timing: {
+        text: "Opens at 10am",
+        color: "#ab000d",
+      },
+
+      should_ban_ugc: false,
+      costText: {
+        text: "₹200 for one",
+      },
+    },
+    order: {
+      deliveryTime: "25 min",
+      isServiceable: true,
+      hasOnlineOrdering: true,
+      actionInfo: {
+        text: "Order Now",
+        clickUrl: "/allahabad/paradise-pizza-dhoomanganj/order",
+      },
+    },
+    gold: [],
+    takeaway: [],
+    cardAction: {
+      text: "",
+      clickUrl: "/allahabad/paradise-pizza-dhoomanganj/order",
+    },
+    distance: "6.9 km",
+    isPromoted: false,
+    promotedText: "",
+    trackingData: [
+      {
+        table_name: "zsearch_events_log",
+        payload:
+          '{"search_id":"d559a98b-bfc9-45df-85de-ef33dd0428f4","location_type":"delivery_cell","location_id":"4150852907861803008","page_type":"delivery","app_type":"new_web_consumer","section":"restaurants","entity_type":"restaurant","entity_id":"20626873","element_type":"listing","rank":8}',
+        event_names: {
+          tap: '{"action":"tap"}',
+          impression: '{"action":"impression"}',
+        },
+      },
+    ],
+    allCTA: [],
+    promoOffer: "",
+    checkBulkOffers: true,
+    bulkOffers: [
+      {
+        text: "60% OFF",
+        color: {
+          tint: "500",
+          type: "blue",
+        },
+      },
+    ],
+    isDisabled: false,
+    bottomContainers: [],
+  },
+  {
+    type: "restaurant",
+    info: {
+      resId: 2061251,
+      name: "SWeet Zone",
+      image: {
+        url: "restaurent/025.jpg",
+      },
+      type: ["North Indian, Continental"],
+
+      rating: {
+        has_fake_reviews: 0,
+        aggregate_rating: "4.1",
+        rating_text: "3.3",
+        rating_subtitle: "Average",
+        rating_color: "CDD614",
+        votes: "39",
+        subtext: "REVIEWS",
+        is_new: false,
+      },
+      ratingNew: {
+        newlyOpenedObj: null,
+        suspiciousReviewObj: null,
+        ratings: {
+          DINING: {
+            rating_type: "DINING",
+            rating: "",
+            reviewCount: "0",
+            reviewTextSmall: "0 Reviews",
+            subtext: "Does not offer Dining",
+            color: "",
+            ratingV2: "-",
+            subtitle: "DINING",
+            sideSubTitle: "Dining Reviews",
+            bgColorV2: {
+              type: "grey",
+              tint: "500",
+            },
+          },
+          DELIVERY: {
+            rating_type: "DELIVERY",
+            rating: "3.3",
+            reviewCount: "39",
+            reviewTextSmall: "39 Reviews",
+            subtext: "39 Delivery Reviews",
+            color: "#E23744",
+            ratingV2: "3.3",
+            subtitle: "DELIVERY",
+            sideSubTitle: "Delivery Reviews",
+            bgColorV2: {
+              type: "green",
+              tint: "500",
+            },
+            newOnDelivery: false,
+          },
+        },
+      },
+      cft: {
+        text: "₹400 for two",
+      },
+      cfo: {
+        text: "₹100 for one",
+      },
+      locality: {
+        name: "Dhoomanganj, Allahabad",
+        address: "19/A, Jayantipur, Preetam Nagar, Dhoomanganj, Allahabad",
+        localityUrl: "allahabad/dhoomanganj-restaurants",
+      },
+      timing: {
+        text: "Opens at 10am",
+        color: "#ab000d",
+      },
+
+      should_ban_ugc: false,
+      costText: {
+        text: "₹200 for one",
+      },
+    },
+    order: {
+      deliveryTime: "45 min",
+      isServiceable: true,
+      hasOnlineOrdering: true,
+      actionInfo: {
+        text: "Order Now",
+        clickUrl: "/allahabad/paradise-pizza-dhoomanganj/order",
+      },
+    },
+    gold: [],
+    takeaway: [],
+    cardAction: {
+      text: "",
+      clickUrl: "/allahabad/paradise-pizza-dhoomanganj/order",
+    },
+    distance: "6.9 km",
+    isPromoted: false,
+    promotedText: "",
+    trackingData: [
+      {
+        table_name: "zsearch_events_log",
+        payload:
+          '{"search_id":"d559a98b-bfc9-45df-85de-ef33dd0428f4","location_type":"delivery_cell","location_id":"4150852907861803008","page_type":"delivery","app_type":"new_web_consumer","section":"restaurants","entity_type":"restaurant","entity_id":"20626873","element_type":"listing","rank":8}',
+        event_names: {
+          tap: '{"action":"tap"}',
+          impression: '{"action":"impression"}',
+        },
+      },
+    ],
+    allCTA: [],
+    promoOffer: "",
+    checkBulkOffers: true,
+    bulkOffers: [
+      {
+        text: "60% OFF",
+        color: {
+          tint: "500",
+          type: "blue",
+        },
+      },
+    ],
+    isDisabled: false,
+    bottomContainers: [],
+  },
+  {
+    type: "restaurant",
+    info: {
+      resId: 20600001,
+      name: "Hot Pizza",
+      image: {
+        url: "restaurent/026.jpg",
+      },
+      type: ["Italian, Continental"],
+
+      rating: {
+        has_fake_reviews: 0,
+        aggregate_rating: "3.2",
+        rating_text: "3.3",
+        rating_subtitle: "Average",
+        rating_color: "CDD614",
+        votes: "39",
+        subtext: "REVIEWS",
+        is_new: false,
+      },
+      ratingNew: {
+        newlyOpenedObj: null,
+        suspiciousReviewObj: null,
+        ratings: {
+          DINING: {
+            rating_type: "DINING",
+            rating: "",
+            reviewCount: "0",
+            reviewTextSmall: "0 Reviews",
+            subtext: "Does not offer Dining",
+            color: "",
+            ratingV2: "-",
+            subtitle: "DINING",
+            sideSubTitle: "Dining Reviews",
+            bgColorV2: {
+              type: "grey",
+              tint: "500",
+            },
+          },
+          DELIVERY: {
+            rating_type: "DELIVERY",
+            rating: "3.3",
+            reviewCount: "39",
+            reviewTextSmall: "39 Reviews",
+            subtext: "39 Delivery Reviews",
+            color: "#E23744",
+            ratingV2: "3.3",
+            subtitle: "DELIVERY",
+            sideSubTitle: "Delivery Reviews",
+            bgColorV2: {
+              type: "green",
+              tint: "500",
+            },
+            newOnDelivery: false,
+          },
+        },
+      },
+      cft: {
+        text: "₹400 for two",
+      },
+      cfo: {
+        text: "₹200 for one",
+      },
+      locality: {
+        name: "Dhoomanganj, Allahabad",
+        address: "19/A, Jayantipur, Preetam Nagar, Dhoomanganj, Allahabad",
+        localityUrl: "allahabad/dhoomanganj-restaurants",
+      },
+      timing: {
+        text: "Opens at 10am",
+        color: "#ab000d",
+      },
+
+      should_ban_ugc: false,
+      costText: {
+        text: "₹200 for one",
+      },
+    },
+    order: {
+      deliveryTime: "25 min",
+      isServiceable: true,
+      hasOnlineOrdering: true,
+      actionInfo: {
+        text: "Order Now",
+        clickUrl: "/allahabad/paradise-pizza-dhoomanganj/order",
+      },
+    },
+    gold: [],
+    takeaway: [],
+    cardAction: {
+      text: "",
+      clickUrl: "/allahabad/paradise-pizza-dhoomanganj/order",
+    },
+    distance: "6.9 km",
+    isPromoted: false,
+    promotedText: "",
+    trackingData: [
+      {
+        table_name: "zsearch_events_log",
+        payload:
+          '{"search_id":"d559a98b-bfc9-45df-85de-ef33dd0428f4","location_type":"delivery_cell","location_id":"4150852907861803008","page_type":"delivery","app_type":"new_web_consumer","section":"restaurants","entity_type":"restaurant","entity_id":"20626873","element_type":"listing","rank":8}',
+        event_names: {
+          tap: '{"action":"tap"}',
+          impression: '{"action":"impression"}',
+        },
+      },
+    ],
+    allCTA: [],
+    promoOffer: "",
+    checkBulkOffers: true,
+    bulkOffers: [
+      {
+        text: "60% OFF",
+        color: {
+          tint: "500",
+          type: "blue",
+        },
+      },
+    ],
+    isDisabled: false,
+    bottomContainers: [],
+  },
+  {
+    type: "restaurant",
+    info: {
+      resId: 206263712,
+      name: "Vishnu's Dhaba",
+      image: {
+        url: "restaurent/027.jpg",
+      },
+      type: ["North Indian, South Indian"],
+
+      rating: {
+        has_fake_reviews: 0,
+        aggregate_rating: "3.9",
+        rating_text: "3.3",
+        rating_subtitle: "Average",
+        rating_color: "CDD614",
+        votes: "39",
+        subtext: "REVIEWS",
+        is_new: false,
+      },
+      ratingNew: {
+        newlyOpenedObj: null,
+        suspiciousReviewObj: null,
+        ratings: {
+          DINING: {
+            rating_type: "DINING",
+            rating: "",
+            reviewCount: "0",
+            reviewTextSmall: "0 Reviews",
+            subtext: "Does not offer Dining",
+            color: "",
+            ratingV2: "-",
+            subtitle: "DINING",
+            sideSubTitle: "Dining Reviews",
+            bgColorV2: {
+              type: "grey",
+              tint: "500",
+            },
+          },
+          DELIVERY: {
+            rating_type: "DELIVERY",
+            rating: "3.3",
+            reviewCount: "39",
+            reviewTextSmall: "39 Reviews",
+            subtext: "39 Delivery Reviews",
+            color: "#E23744",
+            ratingV2: "3.3",
+            subtitle: "DELIVERY",
+            sideSubTitle: "Delivery Reviews",
+            bgColorV2: {
+              type: "green",
+              tint: "500",
+            },
+            newOnDelivery: false,
+          },
+        },
+      },
+      cft: {
+        text: "₹400 for two",
+      },
+      cfo: {
+        text: "₹50 for one",
+      },
+      locality: {
+        name: "Dhoomanganj, Allahabad",
+        address: "19/A, Jayantipur, Preetam Nagar, Dhoomanganj, Allahabad",
+        localityUrl: "allahabad/dhoomanganj-restaurants",
+      },
+      timing: {
+        text: "Opens at 10am",
+        color: "#ab000d",
+      },
+
+      should_ban_ugc: false,
+      costText: {
+        text: "₹200 for one",
+      },
+    },
+    order: {
+      deliveryTime: "30 min",
+      isServiceable: true,
+      hasOnlineOrdering: true,
+      actionInfo: {
+        text: "Order Now",
+        clickUrl: "/allahabad/paradise-pizza-dhoomanganj/order",
+      },
+    },
+    gold: [],
+    takeaway: [],
+    cardAction: {
+      text: "",
+      clickUrl: "/allahabad/paradise-pizza-dhoomanganj/order",
+    },
+    distance: "6.9 km",
+    isPromoted: false,
+    promotedText: "",
+    trackingData: [
+      {
+        table_name: "zsearch_events_log",
+        payload:
+          '{"search_id":"d559a98b-bfc9-45df-85de-ef33dd0428f4","location_type":"delivery_cell","location_id":"4150852907861803008","page_type":"delivery","app_type":"new_web_consumer","section":"restaurants","entity_type":"restaurant","entity_id":"20626873","element_type":"listing","rank":8}',
+        event_names: {
+          tap: '{"action":"tap"}',
+          impression: '{"action":"impression"}',
+        },
+      },
+    ],
+    allCTA: [],
+    promoOffer: "",
+    checkBulkOffers: true,
+    bulkOffers: [
+      {
+        text: "60% OFF",
+        color: {
+          tint: "500",
+          type: "blue",
+        },
+      },
+    ],
+    isDisabled: false,
+    bottomContainers: [],
+  },
+  {
+    type: "restaurant",
+    info: {
+      resId: 206268715,
+      name: "Italian foodz",
+      image: {
+        url: "restaurent/028.jpg",
+      },
+      type: ["Italian, Continental"],
+
+      rating: {
+        has_fake_reviews: 0,
+        aggregate_rating: "4.2",
+        rating_text: "3.3",
+        rating_subtitle: "Average",
+        rating_color: "CDD614",
+        votes: "39",
+        subtext: "REVIEWS",
+        is_new: false,
+      },
+      ratingNew: {
+        newlyOpenedObj: null,
+        suspiciousReviewObj: null,
+        ratings: {
+          DINING: {
+            rating_type: "DINING",
+            rating: "",
+            reviewCount: "0",
+            reviewTextSmall: "0 Reviews",
+            subtext: "Does not offer Dining",
+            color: "",
+            ratingV2: "-",
+            subtitle: "DINING",
+            sideSubTitle: "Dining Reviews",
+            bgColorV2: {
+              type: "grey",
+              tint: "500",
+            },
+          },
+          DELIVERY: {
+            rating_type: "DELIVERY",
+            rating: "3.3",
+            reviewCount: "39",
+            reviewTextSmall: "39 Reviews",
+            subtext: "39 Delivery Reviews",
+            color: "#E23744",
+            ratingV2: "3.3",
+            subtitle: "DELIVERY",
+            sideSubTitle: "Delivery Reviews",
+            bgColorV2: {
+              type: "green",
+              tint: "500",
+            },
+            newOnDelivery: false,
+          },
+        },
+      },
+      cft: {
+        text: "₹400 for two",
+      },
+      cfo: {
+        text: "₹300 for one",
+      },
+      locality: {
+        name: "Dhoomanganj, Allahabad",
+        address: "19/A, Jayantipur, Preetam Nagar, Dhoomanganj, Allahabad",
+        localityUrl: "allahabad/dhoomanganj-restaurants",
+      },
+      timing: {
+        text: "Opens at 10am",
+        color: "#ab000d",
+      },
+
+      should_ban_ugc: false,
+      costText: {
+        text: "₹200 for one",
+      },
+    },
+    order: {
+      deliveryTime: "70 min",
+      isServiceable: true,
+      hasOnlineOrdering: true,
+      actionInfo: {
+        text: "Order Now",
+        clickUrl: "/allahabad/paradise-pizza-dhoomanganj/order",
+      },
+    },
+    gold: [],
+    takeaway: [],
+    cardAction: {
+      text: "",
+      clickUrl: "/allahabad/paradise-pizza-dhoomanganj/order",
+    },
+    distance: "6.9 km",
+    isPromoted: false,
+    promotedText: "",
+    trackingData: [
+      {
+        table_name: "zsearch_events_log",
+        payload:
+          '{"search_id":"d559a98b-bfc9-45df-85de-ef33dd0428f4","location_type":"delivery_cell","location_id":"4150852907861803008","page_type":"delivery","app_type":"new_web_consumer","section":"restaurants","entity_type":"restaurant","entity_id":"20626873","element_type":"listing","rank":8}',
+        event_names: {
+          tap: '{"action":"tap"}',
+          impression: '{"action":"impression"}',
+        },
+      },
+    ],
+    allCTA: [],
+    promoOffer: "",
+    checkBulkOffers: true,
+    bulkOffers: [
+      {
+        text: "60% OFF",
+        color: {
+          tint: "500",
+          type: "blue",
+        },
+      },
+    ],
+    isDisabled: false,
+    bottomContainers: [],
+  },
+  {
+    type: "restaurant",
+    info: {
+      resId: 206268813,
+      name: "Pizza Hub",
+      image: {
+        url: "restaurent/029.jpg",
+      },
+      type: ["Continental, South Indian"],
+
+      rating: {
+        has_fake_reviews: 0,
+        aggregate_rating: "4.5",
+        rating_text: "3.3",
+        rating_subtitle: "Average",
+        rating_color: "CDD614",
+        votes: "39",
+        subtext: "REVIEWS",
+        is_new: false,
+      },
+      ratingNew: {
+        newlyOpenedObj: null,
+        suspiciousReviewObj: null,
+        ratings: {
+          DINING: {
+            rating_type: "DINING",
+            rating: "",
+            reviewCount: "0",
+            reviewTextSmall: "0 Reviews",
+            subtext: "Does not offer Dining",
+            color: "",
+            ratingV2: "-",
+            subtitle: "DINING",
+            sideSubTitle: "Dining Reviews",
+            bgColorV2: {
+              type: "grey",
+              tint: "500",
+            },
+          },
+          DELIVERY: {
+            rating_type: "DELIVERY",
+            rating: "3.3",
+            reviewCount: "39",
+            reviewTextSmall: "39 Reviews",
+            subtext: "39 Delivery Reviews",
+            color: "#E23744",
+            ratingV2: "3.3",
+            subtitle: "DELIVERY",
+            sideSubTitle: "Delivery Reviews",
+            bgColorV2: {
+              type: "green",
+              tint: "500",
+            },
+            newOnDelivery: false,
+          },
+        },
+      },
+      cft: {
+        text: "₹400 for two",
+      },
+      cfo: {
+        text: "₹250 for one",
+      },
+      locality: {
+        name: "Dhoomanganj, Allahabad",
+        address: "19/A, Jayantipur, Preetam Nagar, Dhoomanganj, Allahabad",
+        localityUrl: "allahabad/dhoomanganj-restaurants",
+      },
+      timing: {
+        text: "Opens at 10am",
+        color: "#ab000d",
+      },
+
+      should_ban_ugc: false,
+      costText: {
+        text: "₹200 for one",
+      },
+    },
+    order: {
+      deliveryTime: "45 min",
+      isServiceable: true,
+      hasOnlineOrdering: true,
+      actionInfo: {
+        text: "Order Now",
+        clickUrl: "/allahabad/paradise-pizza-dhoomanganj/order",
+      },
+    },
+    gold: [],
+    takeaway: [],
+    cardAction: {
+      text: "",
+      clickUrl: "/allahabad/paradise-pizza-dhoomanganj/order",
+    },
+    distance: "6.9 km",
+    isPromoted: false,
+    promotedText: "",
+    trackingData: [
+      {
+        table_name: "zsearch_events_log",
+        payload:
+          '{"search_id":"d559a98b-bfc9-45df-85de-ef33dd0428f4","location_type":"delivery_cell","location_id":"4150852907861803008","page_type":"delivery","app_type":"new_web_consumer","section":"restaurants","entity_type":"restaurant","entity_id":"20626873","element_type":"listing","rank":8}',
+        event_names: {
+          tap: '{"action":"tap"}',
+          impression: '{"action":"impression"}',
+        },
+      },
+    ],
+    allCTA: [],
+    promoOffer: "",
+    checkBulkOffers: true,
+    bulkOffers: [
+      {
+        text: "60% OFF",
+        color: {
+          tint: "500",
+          type: "blue",
+        },
+      },
+    ],
+    isDisabled: false,
+    bottomContainers: [],
+  },
+  {
+    type: "restaurant",
+    info: {
+      resId: 206264713,
+      name: "Food Zone",
+      image: {
+        url: "restaurent/030.jpg",
+      },
+      type: ["North Indian, South Indian"],
+
+      rating: {
+        has_fake_reviews: 0,
+        aggregate_rating: "3.6",
+        rating_text: "3.3",
+        rating_subtitle: "Average",
+        rating_color: "CDD614",
+        votes: "39",
+        subtext: "REVIEWS",
+        is_new: false,
+      },
+      ratingNew: {
+        newlyOpenedObj: null,
+        suspiciousReviewObj: null,
+        ratings: {
+          DINING: {
+            rating_type: "DINING",
+            rating: "",
+            reviewCount: "0",
+            reviewTextSmall: "0 Reviews",
+            subtext: "Does not offer Dining",
+            color: "",
+            ratingV2: "-",
+            subtitle: "DINING",
+            sideSubTitle: "Dining Reviews",
+            bgColorV2: {
+              type: "grey",
+              tint: "500",
+            },
+          },
+          DELIVERY: {
+            rating_type: "DELIVERY",
+            rating: "3.3",
+            reviewCount: "39",
+            reviewTextSmall: "39 Reviews",
+            subtext: "39 Delivery Reviews",
+            color: "#E23744",
+            ratingV2: "3.3",
+            subtitle: "DELIVERY",
+            sideSubTitle: "Delivery Reviews",
+            bgColorV2: {
+              type: "green",
+              tint: "500",
+            },
+            newOnDelivery: false,
+          },
+        },
+      },
+      cft: {
+        text: "₹400 for two",
+      },
+      cfo: {
+        text: "₹300 for one",
+      },
+      locality: {
+        name: "Dhoomanganj, Allahabad",
+        address: "19/A, Jayantipur, Preetam Nagar, Dhoomanganj, Allahabad",
+        localityUrl: "allahabad/dhoomanganj-restaurants",
+      },
+      timing: {
+        text: "Opens at 10am",
+        color: "#ab000d",
+      },
+
+      should_ban_ugc: false,
+      costText: {
+        text: "₹200 for one",
+      },
+    },
+    order: {
+      deliveryTime: "50 min",
       isServiceable: true,
       hasOnlineOrdering: true,
       actionInfo: {

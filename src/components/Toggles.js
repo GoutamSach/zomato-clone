@@ -4,8 +4,12 @@ import deliverySelect from "../../src/images/deliverySelect.png";
 import dine from "../../src/images/dine.png";
 import dineSelect from "../../src/images/dineSelect.png";
 
-function Toggles() {
+function Toggles(props) {
   const [deliverySelected, setdeliverySelected] = useState(true);
+
+  useEffect(() => {
+    props.deliverySelect(deliverySelected);
+  }, [deliverySelected]);
 
   return (
     <div className="mt-12 ">
