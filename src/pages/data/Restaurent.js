@@ -4,6 +4,7 @@ export const Restaurent = [
     info: {
       resId: 119535272,
       name: "Mom's Kitchen",
+
       image: {
         url: "restaurent/001.jpg",
       },
@@ -251,6 +252,7 @@ export const Restaurent = [
     type: "restaurant",
     info: {
       resId: 119182849,
+      veg: true,
       name: "Desi Kitchen",
       image: {
         url: "restaurent/003.jpg",
@@ -501,6 +503,8 @@ export const Restaurent = [
     type: "restaurant",
     info: {
       resId: 203601098,
+      veg: true,
+
       name: "Tiffinz",
       image: {
         url: "restaurent/005.jpg",
@@ -859,6 +863,7 @@ export const Restaurent = [
   {
     type: "restaurant",
     info: {
+      veg: true,
       resId: 189178564,
       name: "Le  Leisure",
       image: {
@@ -985,6 +990,7 @@ export const Restaurent = [
   {
     type: "restaurant",
     info: {
+      veg: true,
       resId: 198111964,
       name: "Healthy Wealthy",
       image: {
@@ -1112,6 +1118,7 @@ export const Restaurent = [
   {
     type: "restaurant",
     info: {
+      veg: true,
       resId: 208419174,
       name: "Noodles Junction",
       image: {
@@ -1212,6 +1219,7 @@ export const Restaurent = [
   {
     type: "restaurant",
     info: {
+      veg: true,
       resId: 205121596,
       name: "Vanakkam Sangam",
       image: {
@@ -1457,6 +1465,7 @@ export const Restaurent = [
   {
     type: "restaurant",
     info: {
+      veg: true,
       resId: 208689141,
       name: "Cakes For Obsession",
       image: {
@@ -1649,6 +1658,7 @@ export const Restaurent = [
   {
     type: "restaurant",
     info: {
+      veg: true,
       resId: 201037941,
       name: "Cake O' Clock",
       image: {
@@ -1894,6 +1904,7 @@ export const Restaurent = [
   {
     type: "restaurant",
     info: {
+      veg: true,
       resId: 205190116,
       name: "Pizza Time",
       image: {
@@ -2138,6 +2149,7 @@ export const Restaurent = [
   {
     type: "restaurant",
     info: {
+      veg: true,
       resId: 207391684,
       name: "Pizza Factory",
       image: {
@@ -2382,6 +2394,7 @@ export const Restaurent = [
   {
     type: "restaurant",
     info: {
+      veg: true,
       resId: 2062681111,
       name: "Paradise Zone",
       image: {
@@ -2626,6 +2639,7 @@ export const Restaurent = [
   {
     type: "restaurant",
     info: {
+      veg: true,
       resId: 206126333,
       name: "Food Foundary",
       image: {
@@ -2870,6 +2884,7 @@ export const Restaurent = [
   {
     type: "restaurant",
     info: {
+      veg: true,
       resId: 2061251,
       name: "SWeet Zone",
       image: {
@@ -3114,6 +3129,7 @@ export const Restaurent = [
   {
     type: "restaurant",
     info: {
+      veg: true,
       resId: 206263712,
       name: "Vishnu's Dhaba",
       image: {
@@ -3236,6 +3252,7 @@ export const Restaurent = [
   {
     type: "restaurant",
     info: {
+      veg: true,
       resId: 206268715,
       name: "Italian foodz",
       image: {
@@ -3358,6 +3375,7 @@ export const Restaurent = [
   {
     type: "restaurant",
     info: {
+      veg: true,
       resId: 206268813,
       name: "Pizza Hub",
       image: {

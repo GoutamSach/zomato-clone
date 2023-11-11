@@ -37,7 +37,10 @@ function Tags(props) {
         onClick={() => {
           if (pureVeg === false) {
             setpureVeg(true);
-          } else setpureVeg(false);
+          }
+          if (pureVeg === true) {
+            setpureVeg(false);
+          }
         }}
         className={`cursor-pointer hover:bg-gray-100  text-gray-400  border border-gray-400 rounded-lg p-1.5 w-max px-2 ${
           pureVeg && "bg-red-500 text-white hover:bg-red-600 border-red-500"

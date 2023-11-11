@@ -16,7 +16,7 @@ function Listingcard({
   return (
     <>
       <div key={id}>
-        <div className=" w-[350px]  rounded-xl p-2  flex flex-col gap-2  hover:border hover:shadow-lg cursor-pointer hover:border-gray-200  border border-transparent ">
+        <div className=" mt-8 w-[350px]  rounded-xl p-2  flex flex-col gap-2  hover:border hover:shadow-lg cursor-pointer hover:border-gray-200  border border-transparent ">
           <img
             className=" rounded-xl relative  object-cover  w-auto h-56"
             src={imgurl}
