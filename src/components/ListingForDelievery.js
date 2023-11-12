@@ -12,25 +12,21 @@ function ListingForDelievery() {
     <>
       <Tags filterForVeg={setpureVeg} filterForRating={setRating4} />
       <div className=" grid grid-cols-3 gap-y-10 mb-16">
-        {Restaurent.map(function (item) {
-          if (pureVeg && item.info.veg === true) {
-            return (
-              <Listingcard
-                key={item.info.resId}
-                imgurl={item.info.image.url}
-                resid={item.info.resId}
-                id={item.info.resId}
-                discount={item.bulkOffers.text}
-                title={item.info.name}
-                rating={item.info.rating.aggregate_rating}
-                menu={item.info.type}
-                price={item.info.cfo.text}
-                time={item.order.deliveryTime}
-                veg={item.info.veg}
-              />
-            );
-          } else <Listingcard key={item.info.resId} imgurl={item.info.image.url} resid={item.info.resId} id={item.info.resId} discount={item.bulkOffers.text} title={item.info.name} rating={item.info.rating.aggregate_rating} menu={item.info.type} price={item.info.cfo.text} time={item.order.deliveryTime} veg={item.info.veg} />;
-        })}
+        {Restaurent.map((item) => (
+          <Listingcard
+            key={item.info.resId}
+            imgurl={item.info.image.url}
+            resid={item.info.resId}
+            id={item.info.resId}
+            discount={item.bulkOffers.text}
+            title={item.info.name}
+            rating={item.info.rating.aggregate_rating}
+            menu={item.info.type}
+            price={item.info.cfo.text}
+            time={item.order.deliveryTime}
+            veg={item.info.veg}
+          />
+        ))}
       </div>
     </>
   );
