@@ -1,11 +1,14 @@
 import React, { useEffect, useState } from "react";
-import TuneIcon from "@mui/icons-material/Tune";
-
+// import TuneIcon from "@mui/icons-material/Tune";
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import CloseIcon from "@mui/icons-material/Close";
+import { Select, Option } from "@material-tailwind/react";
+import { CuisinesDropdown } from "./CuisinesDropdown";
 
 function Tags(props) {
   const [pureVeg, setpureVeg] = useState(false);
   const [Rating4, setRating4] = useState(false);
+  const [CuisineDropDown, setCuisineDropDown] = useState(false);
 
   useEffect(() => {
     props.filterForVeg(pureVeg);
@@ -17,11 +20,7 @@ function Tags(props) {
 
   return (
     <div className="">
-      <div className=" flex items-center gap-4 my-8 text-sm">
-        <div className=" hover:bg-gray-100 cursor-pointer flex items-center gap-1 text-gray-400  border border-gray-400 rounded-lg p-1.5 w-max px-2  ">
-          <TuneIcon style={{ width: "16px" }} />
-          Filters
-        </div>
+      <div className=" relative flex items-center gap-4 my-8 text-sm">
         <div
           onClick={() => {
             if (Rating4 === false) {
@@ -34,6 +33,7 @@ function Tags(props) {
         >
           Ratings 4.0+ {Rating4 && <CloseIcon style={{ width: "18px" }} />}
         </div>
+
         <div
           onClick={() => {
             if (pureVeg === false) {
@@ -48,6 +48,25 @@ function Tags(props) {
           } `}
         >
           Pure Veg {pureVeg && <CloseIcon style={{ width: "18px" }} />}
+        </div>
+        <div className="">
+          <div
+            onClick={() => {
+              if (CuisineDropDown === false) {
+                setCuisineDropDown(true);
+              }
+              if (CuisineDropDown === true) {
+                setCuisineDropDown(false);
+              }
+            }}
+            className=" hover:bg-gray-100 cursor-pointer flex items-center gap-1 text-gray-400  border border-gray-400 rounded-lg p-1.5 w-max px-2  "
+          >
+            Cuisines
+            <KeyboardArrowDownIcon style={{ width: "16px" }} />
+          </div>
+          <div className=" fixed z-10">
+            {CuisineDropDown && <CuisinesDropdown />}
+          </div>
         </div>
       </div>
     </div>
