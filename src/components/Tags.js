@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 // import TuneIcon from "@mui/icons-material/Tune";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import CloseIcon from "@mui/icons-material/Close";
-import { Select, Option } from "@material-tailwind/react";
+
 import { CuisinesDropdown } from "./CuisinesDropdown";
 
 function Tags(props) {

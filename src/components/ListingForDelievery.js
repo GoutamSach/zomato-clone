@@ -4,6 +4,8 @@ import Listingcard from "./Listingcard";
 import Tags from "./Tags";
 import { useEffect } from "react";
 import Sort from "./sort";
+import { useContext } from "react";
+import { CuisineContext } from "./CuisinesDropdown";
 
 function ListingForDelievery() {
   const [pureVeg, setpureVeg] = useState(false);
@@ -11,7 +13,30 @@ function ListingForDelievery() {
   const [filteredList, setFilteredLIst] = useState(Restaurent);
   const [Rating4, setRating4] = useState(false);
   const [ratingFilter, setRatingFilter] = useState("0");
+  const [lastScroll, setLastScroll] = useState(0);
+  const [headerHide, setHeaderHide] = useState(false);
 
+  const CuisineFromContext = useContext(CuisineContext);
+
+  useEffect(() => {
+    console.log(CuisineFromContext);
+  }, [CuisineFromContext]);
+
+  function headerHideOnScroll() {
+    setHeaderHide(true);
+    if (window.scrollY > 205) {
+    } else {
+      setHeaderHide(false);
+    }
+    setLastScroll(window.scrollY);
+  }
+
+  useEffect(() => {
+    window.addEventListener("scroll", headerHideOnScroll);
+    return () => {
+      window.removeEventListener("scroll", headerHideOnScroll);
+    };
+  }, [lastScroll]);
   useEffect(() => {
     filterForVegandRate();
   }, [pureVeg, Rating4]);
@@ -41,12 +66,19 @@ function ListingForDelievery() {
 
   return (
     <>
-      <div className="flex items-center justify-between  ">
-        <div className="">
-          <Tags filterForVeg={setpureVeg} filterForRating={setRating4} />
-        </div>
-        <div className="">
-          <Sort />
+      <div className=" relative ">
+        <div
+          className={`flex items-center justify-between ${
+            headerHide &&
+            " my-0 z-50  fixed top-0 w-[1148px] max-w-[1148px] bg-white "
+          }  `}
+        >
+          <div className="">
+            <Tags filterForVeg={setpureVeg} filterForRating={setRating4} />
+          </div>
+          <div className="">
+            <Sort />
+          </div>
         </div>
       </div>
 
