@@ -9,7 +9,7 @@ export const Restaurent = [
       image: {
         url: "restaurent/001.jpg",
       },
-      type: ["North Indian,  ", "South Indian"],
+      type: ["North Indian", "South Indian"],
 
       rating: {
         has_fake_reviews: 0,
@@ -136,7 +136,7 @@ export const Restaurent = [
       image: {
         url: "restaurent/002.jpg",
       },
-      type: ["South Indian,  ", "Chinese"],
+      type: ["South Indian", "Chinese"],
       rating: {
         has_fake_reviews: 0,
         aggregate_rating: "4.3",
@@ -259,7 +259,7 @@ export const Restaurent = [
       image: {
         url: "restaurent/003.jpg",
       },
-      type: ["South Indian,  ", "North Indian"],
+      type: ["South Indian", "North Indian"],
       rating: {
         has_fake_reviews: 0,
         aggregate_rating: "3.9",
@@ -386,7 +386,7 @@ export const Restaurent = [
       image: {
         url: "restaurent/004.jpg",
       },
-      type: ["South Indian,  ", "Gujrati"],
+      type: ["South Indian", "Gujrati"],
 
       rating: {
         has_fake_reviews: 0,
@@ -512,7 +512,7 @@ export const Restaurent = [
       image: {
         url: "restaurent/005.jpg",
       },
-      type: ["Bengali,  ", "Gujrati"],
+      type: ["Bengali", "Gujrati"],
 
       rating: {
         has_fake_reviews: 0,
@@ -635,7 +635,7 @@ export const Restaurent = [
       image: {
         url: "restaurent/006.jpg",
       },
-      type: ["North Indian,  ", "South Indian"],
+      type: ["North Indian", "South Indian"],
 
       rating: {
         has_fake_reviews: 0,
@@ -751,7 +751,7 @@ export const Restaurent = [
       image: {
         url: "restaurent/007.jpg",
       },
-      type: ["Chinese,  ", "South Indian"],
+      type: ["Chinese", "South Indian"],
 
       rating: {
         has_fake_reviews: 0,
@@ -874,7 +874,7 @@ export const Restaurent = [
       image: {
         url: "restaurent/008.jpg",
       },
-      type: ["Italian,  ", "South Indian"],
+      type: ["Italian", "South Indian"],
 
       rating: {
         has_fake_reviews: 0,
@@ -1001,7 +1001,7 @@ export const Restaurent = [
       image: {
         url: "restaurent/009.jpg",
       },
-      type: ["North Indian,  ", "South Indian"],
+      type: ["North Indian", "South Indian"],
 
       rating: {
         has_fake_reviews: 0,
@@ -1129,7 +1129,7 @@ export const Restaurent = [
       image: {
         url: "restaurent/010.jpg",
       },
-      type: ["Gujrati,  ", "South Indian"],
+      type: ["Gujrati", "South Indian"],
 
       rating: {
         has_fake_reviews: 0,
@@ -1230,7 +1230,7 @@ export const Restaurent = [
       image: {
         url: "restaurent/011.jpg",
       },
-      type: ["North Indian,  ", "South Indian"],
+      type: ["North Indian", "South Indian"],
 
       rating: {
         has_fake_reviews: 0,
@@ -1353,7 +1353,7 @@ export const Restaurent = [
       image: {
         url: "restaurent/012.jpg",
       },
-      type: ["North Indian,  ", "South Indian"],
+      type: ["North Indian", "South Indian"],
 
       rating: {
         has_fake_reviews: 0,
@@ -1477,7 +1477,7 @@ export const Restaurent = [
       image: {
         url: "restaurent/013.jpg",
       },
-      type: ["Italian,  ", "Thai"],
+      type: ["Italian", "Thai"],
 
       rating: {
         has_fake_reviews: 0,
@@ -1578,7 +1578,7 @@ export const Restaurent = [
       image: {
         url: "restaurent/014.jpg",
       },
-      type: ["North Indian,  ", "Chinese"],
+      type: ["North Indian", "Chinese"],
 
       rating: {
         has_fake_reviews: 0,
@@ -1671,7 +1671,7 @@ export const Restaurent = [
       image: {
         url: "restaurent/015.jpg",
       },
-      type: ["North Indian,  ", "South Indian"],
+      type: ["North Indian", "South Indian"],
 
       rating: {
         has_fake_reviews: 0,
@@ -1798,7 +1798,7 @@ export const Restaurent = [
       image: {
         url: "restaurent/016.jpg",
       },
-      type: ["North Indian  "],
+      type: ["North Indian"],
 
       rating: {
         has_fake_reviews: 0,
@@ -1918,7 +1918,7 @@ export const Restaurent = [
       image: {
         url: "restaurent/017.jpg",
       },
-      type: ["South Indian  "],
+      type: ["South Indian"],
 
       rating: {
         has_fake_reviews: 0,
@@ -2164,7 +2164,7 @@ export const Restaurent = [
       image: {
         url: "restaurent/019.jpg",
       },
-      type: ["North Indian, South Indian"],
+      type: ["North Indian", " South Indian"],
 
       rating: {
         has_fake_reviews: 0,
@@ -2287,7 +2287,7 @@ export const Restaurent = [
       image: {
         url: "restaurent/020.jpg",
       },
-      type: ["North Indian, South Indian"],
+      type: ["North Indian", " South Indian"],
 
       rating: {
         has_fake_reviews: 0,
@@ -2410,7 +2410,7 @@ export const Restaurent = [
       image: {
         url: "restaurent/021.jpg",
       },
-      type: ["North Indian, South Indian"],
+      type: ["North Indian", " South Indian"],
 
       rating: {
         has_fake_reviews: 0,
@@ -2533,7 +2533,7 @@ export const Restaurent = [
       image: {
         url: "restaurent/022.jpg",
       },
-      type: ["North Indian, South Indian"],
+      type: ["North Indian", " South Indian"],
 
       rating: {
         has_fake_reviews: 0,
@@ -2656,7 +2656,7 @@ export const Restaurent = [
       image: {
         url: "restaurent/023.jpg",
       },
-      type: ["North Indian, South Indian"],
+      type: ["North Indian", " South Indian"],
 
       rating: {
         has_fake_reviews: 0,
@@ -2779,7 +2779,7 @@ export const Restaurent = [
       image: {
         url: "restaurent/024.jpg",
       },
-      type: ["Chinese, South Indian"],
+      type: ["Chinese", " South Indian"],
 
       rating: {
         has_fake_reviews: 0,
@@ -2902,7 +2902,7 @@ export const Restaurent = [
       image: {
         url: "restaurent/025.jpg",
       },
-      type: ["North Indian, Continental"],
+      type: ["North Indian", " Continental"],
 
       rating: {
         has_fake_reviews: 0,
@@ -3025,7 +3025,7 @@ export const Restaurent = [
       image: {
         url: "restaurent/026.jpg",
       },
-      type: ["Italian, Continental"],
+      type: ["Italian", " Continental"],
 
       rating: {
         has_fake_reviews: 0,
@@ -3148,7 +3148,7 @@ export const Restaurent = [
       image: {
         url: "restaurent/027.jpg",
       },
-      type: ["North Indian, South Indian"],
+      type: ["North Indian", " South Indian"],
 
       rating: {
         has_fake_reviews: 0,
@@ -3271,7 +3271,7 @@ export const Restaurent = [
       image: {
         url: "restaurent/028.jpg",
       },
-      type: ["Italian, Continental"],
+      type: ["Italian", " Continental"],
 
       rating: {
         has_fake_reviews: 0,
@@ -3394,7 +3394,7 @@ export const Restaurent = [
       image: {
         url: "restaurent/029.jpg",
       },
-      type: ["Continental, South Indian"],
+      type: ["Continental", " South Indian"],
 
       rating: {
         has_fake_reviews: 0,
@@ -3517,7 +3517,7 @@ export const Restaurent = [
       image: {
         url: "restaurent/030.jpg",
       },
-      type: ["North Indian, South Indian"],
+      type: ["North Indian", " South Indian"],
 
       rating: {
         has_fake_reviews: 0,

@@ -1,14 +1,15 @@
 import React, { useEffect, useState } from "react";
-// import TuneIcon from "@mui/icons-material/Tune";
-import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import CloseIcon from "@mui/icons-material/Close";
-
 import { CuisinesDropdown } from "./CuisinesDropdown";
 
 function Tags(props) {
   const [pureVeg, setpureVeg] = useState(false);
   const [Rating4, setRating4] = useState(false);
-  const [CuisineDropDown, setCuisineDropDown] = useState(false);
+  // const [SelectedCuisine, setSelectedCuisine] = useState();
+
+  // useEffect(() => {
+  //   props.SelectedCuisine(SelectedCuisine);
+  // }, [SelectedCuisine]);
 
   useEffect(() => {
     props.filterForVeg(pureVeg);
@@ -49,7 +50,8 @@ function Tags(props) {
         >
           Pure Veg {pureVeg && <CloseIcon style={{ width: "18px" }} />}
         </div>
-        <div className="">
+        <CuisinesDropdown />
+        {/* <div className="">
           <div
             onClick={() => {
               if (CuisineDropDown === false) {
@@ -65,9 +67,11 @@ function Tags(props) {
             <KeyboardArrowDownIcon style={{ width: "16px" }} />
           </div>
           <div className=" fixed z-10">
-            {CuisineDropDown && <CuisinesDropdown />}
+            {CuisineDropDown && (
+              <CuisinesDropdown SelectedCuisine={setSelectedCuisine} />
+            )}
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

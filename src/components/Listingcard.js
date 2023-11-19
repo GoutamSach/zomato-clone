@@ -36,7 +36,7 @@ function Listingcard({
             </div>
             <div className=" flex items-center  justify-between">
               <h3 className=" text-[15px] truncate   max-w-[220px]   font-normal text-gray-400 ">
-                {menu}
+                {menu.map((i, index) => (index ? ", " : "") + i)}
               </h3>
               <p className=" text-[15px] truncate   font-normal text-gray-400">
                 {price}
