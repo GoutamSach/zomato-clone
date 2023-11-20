@@ -15,6 +15,11 @@ export function CuisinesDropdown(props) {
   const [CuisineDropDown, setCuisineDropDown] = useState(false);
   const [SelectedCuisine, setSelectedCuisine] = useState();
 
+  useEffect(() => {
+    props.SelectedCuisine(SelectedCuisine);
+  }, [SelectedCuisine]);
+
+  // submit button
   function submittedCuisines(e) {
     e.preventDefault();
     const data = new Set(Cuisines);
@@ -23,7 +28,7 @@ export function CuisinesDropdown(props) {
 
     setCuisineDropDown(false);
   }
-
+  // checkbox
   function submittedCuisine(e) {
     const value = e.target.value;
     if (e.target.checked) {
@@ -31,11 +36,7 @@ export function CuisinesDropdown(props) {
     }
   }
 
-  useEffect(() => {
-    console.log(SelectedCuisine);
-    // console.log(Cuisines);
-  }, [SelectedCuisine]);
-
+  // clear button
   function handleClear() {
     window.location.reload();
   }

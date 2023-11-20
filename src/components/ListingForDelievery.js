@@ -13,7 +13,17 @@ function ListingForDelievery() {
   const [ratingFilter, setRatingFilter] = useState("0");
   const [lastScroll, setLastScroll] = useState(0);
   const [SelectedCuisine, setSelectedCuisine] = useState([]);
+  const [CuisineBoolean, setCuisineBoolean] = useState(false);
   const [headerHide, setHeaderHide] = useState(false);
+
+  useEffect(() => {
+    if (SelectedCuisine > "0") {
+      setCuisineBoolean(true);
+    }
+    if (SelectedCuisine === "0") {
+      setCuisineBoolean(false);
+    }
+  }, [SelectedCuisine]);
 
   // code for header hide
   function headerHideOnScroll() {
@@ -33,6 +43,7 @@ function ListingForDelievery() {
   }, [lastScroll]);
 
   // rating and pure veg filter
+
   useEffect(() => {
     filterForVegandRate();
   }, [pureVeg, Rating4]);
@@ -50,12 +61,18 @@ function ListingForDelievery() {
     } else setVegFilter("0");
   }
 
+  useEffect(() => {}, [SelectedCuisine]);
+
   function filters() {
     const fitlerForDelivery = Restaurent.filter((item) => {
       return (
         item.info.veg > `${vegFilter}` &&
-        item.info.rating.aggregate_rating > `${ratingFilter}` &&
-        item.info.type[0] === "North Indian"
+        item.info.rating.aggregate_rating > `${ratingFilter}`
+        // &&
+        // {
+        //   CuisineBoolean
+
+        // item.info.type[0] === "North Indian"}
       );
     });
     setFilteredLIst(fitlerForDelivery);

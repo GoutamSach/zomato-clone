@@ -5,11 +5,11 @@ import { CuisinesDropdown } from "./CuisinesDropdown";
 function Tags(props) {
   const [pureVeg, setpureVeg] = useState(false);
   const [Rating4, setRating4] = useState(false);
-  // const [SelectedCuisine, setSelectedCuisine] = useState();
+  const [SelectedCuisine, setSelectedCuisine] = useState();
 
-  // useEffect(() => {
-  //   props.SelectedCuisine(SelectedCuisine);
-  // }, [SelectedCuisine]);
+  useEffect(() => {
+    props.SelectedCuisine(SelectedCuisine);
+  }, [SelectedCuisine]);
 
   useEffect(() => {
     props.filterForVeg(pureVeg);
@@ -50,28 +50,7 @@ function Tags(props) {
         >
           Pure Veg {pureVeg && <CloseIcon style={{ width: "18px" }} />}
         </div>
-        <CuisinesDropdown />
-        {/* <div className="">
-          <div
-            onClick={() => {
-              if (CuisineDropDown === false) {
-                setCuisineDropDown(true);
-              }
-              if (CuisineDropDown === true) {
-                setCuisineDropDown(false);
-              }
-            }}
-            className=" hover:bg-gray-100 cursor-pointer flex items-center gap-1 text-gray-400  border border-gray-400 rounded-lg p-1.5 w-max px-2  "
-          >
-            Cuisines
-            <KeyboardArrowDownIcon style={{ width: "16px" }} />
-          </div>
-          <div className=" fixed z-10">
-            {CuisineDropDown && (
-              <CuisinesDropdown SelectedCuisine={setSelectedCuisine} />
-            )}
-          </div>
-        </div> */}
+        <CuisinesDropdown SelectedCuisine={setSelectedCuisine} />
       </div>
     </div>
   );
