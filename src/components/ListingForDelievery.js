@@ -68,7 +68,7 @@ function ListingForDelievery() {
       return (
         item.info.veg > `${vegFilter}` &&
         item.info.rating.aggregate_rating > `${ratingFilter}`
-        // &&
+
         // {
         //   CuisineBoolean
 
