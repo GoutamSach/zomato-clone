@@ -4,6 +4,7 @@ import Listingcard from "./Listingcard";
 import Tags from "./Tags";
 import { useEffect } from "react";
 import Sort from "./sort";
+import { select } from "@material-tailwind/react";
 
 function ListingForDelievery() {
   const [pureVeg, setpureVeg] = useState(false);
@@ -65,15 +66,17 @@ function ListingForDelievery() {
 
   function filters() {
     const fitlerForDelivery = Restaurent.filter((item) => {
+      // for (const value of SelectedCuisine) {
+      //   let data = value;
+      // }
       return (
         item.info.veg > `${vegFilter}` &&
         item.info.rating.aggregate_rating > `${ratingFilter}`
-
-        // {
-        //   CuisineBoolean
-
-        // item.info.type[0] === "North Indian"}
       );
+      // &&
+      // !CuisineBoolean
+      // ? item.info.type[0] === "North Indian"
+      // : item.info.type[1] === "Chinese";
     });
     setFilteredLIst(fitlerForDelivery);
   }
